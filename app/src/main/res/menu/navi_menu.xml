@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item android:id="@+id/bottom_today"
-        app:showAsAction="ifRoom" android:enabled="true" android:icon="@drawable/ic_todayfeed" android:title="오늘의 단어"/>
+    <item android:id="@+id/bottom_home"
+        app:showAsAction="ifRoom" android:enabled="true" android:icon="@drawable/ic_home" android:title="홈"/>
     <item android:id="@+id/bottom_dictionary"
         app:showAsAction="ifRoom" android:enabled="true" android:icon="@drawable/ic_search" android:title="사전"/>
+    <item android:id="@+id/bottom_read"
+        app:showAsAction="ifRoom" android:enabled="true" android:icon="@drawable/ic_todayfeed" android:title="독해"/>
     <item android:id="@+id/bottom_myWords"
         app:showAsAction="ifRoom" android:enabled="true" android:icon="@drawable/ic_card" android:title="내 단어장"/>
 </menu>

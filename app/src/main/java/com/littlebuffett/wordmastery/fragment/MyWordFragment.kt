@@ -1,4 +1,4 @@
-package com.example.wordmastery.fragment
+package com.littlebuffett.wordmastery.fragment
 
 import android.os.Bundle
 import android.util.Log
@@ -6,18 +6,18 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.wordmastery.R
+import com.littlebuffett.wordmastery.R
 
-class TodayFragment : Fragment() {
+
+class MyWordFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-
-        Log.d("TodayFragment", "onCreateView()실행됨")
+        Log.d("MyWordFragment", "onCreateView()실행됨")
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_today, container, false)
+        return inflater.inflate(R.layout.fragment_my_word, container, false)
     }
 
 }

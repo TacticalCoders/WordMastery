@@ -1,4 +1,4 @@
-package com.example.wordmastery
+package com.littlebuffett.wordmastery
 
 import org.junit.Test
 
